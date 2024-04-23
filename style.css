@@ -1,0 +1,150 @@
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    margin-top: -115px; 
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 120px;
+    font-family: serif;
+    text-shadow: 
+    -2px -2px 0 #333, /* Sombra para cima e para a esquerda */
+    2px -2px 0 #333, /* Sombra para cima e para a direita */
+    -2px 2px 0 #333, /* Sombra para baixo e para a esquerda */
+    2px 2px 0 #333; /* Sombra para baixo e para a direita */
+}
+
+.btn-products {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 1000; 
+}
+
+.btn-products:hover {
+    background-color: #555;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}    
+
+.product {
+    width: calc(33.33% - 20px); 
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.product p {
+    font-size: 14px;
+}
+
+.product a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
